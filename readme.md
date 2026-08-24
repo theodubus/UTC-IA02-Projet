@@ -1,6 +1,10 @@
 # Hitman
 Projet de l'UV IA02 pour le semestre P23
 
+<p align="center">
+  <img src="docs/demo.gif" alt="Une partie jouée par l'agent : exploration puis exécution" width="520"/>
+</p>
+
 ## Projet
 Dans ce projet, le but est de controler un personnage, "hitman", afin de l'aider à tuer une cible.
 Le jeu se déroule en deux phases, une d'exploration ou le but est d'explorer la carte en se faisant le moins voir possible, et une phase d'execution ou le but est de planifier une série d'actions afin de tuer la cible tout en restant le plus discret possible.
