@@ -9,6 +9,22 @@ Ce readme n'est qu'une description générale et brève du fonctionnement des di
 
 ## Utilisation
 
+### Prérequis
+
+Le projet utilise le solveur SAT [gophersat](https://github.com/crillab/gophersat), qui n'est pas
+inclus dans le dépôt. Téléchargez le binaire correspondant à votre système depuis
+[ses releases](https://github.com/crillab/gophersat/releases), placez-le dans le dossier
+`gophersat/` sous le nom `gophersat`, puis rendez-le exécutable :
+
+```bash
+mv gophersat-linux64 gophersat/gophersat   # adapter au binaire téléchargé
+chmod +x gophersat/gophersat
+```
+
+Aucune dépendance Python n'est nécessaire (bibliothèque standard uniquement).
+
+### Lancement
+
 ```bash
 python3 main.py
 ```
