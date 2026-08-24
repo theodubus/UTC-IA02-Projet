@@ -1,0 +1,9 @@
+# Artefacts Python
+__pycache__/
+*.pyc
+
+# Binaire du solveur SAT (voir readme.md pour le télécharger)
+gophersat/gophersat
+
+# Fichier DIMACS généré à chaque exécution
+gophersat/hitman.cnf
